@@ -20,7 +20,7 @@
     "cucumber",
     "report"
   ],
-  "author": "siva.sajja",
+  "author": "Bhanu Yalla",
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
     "cypress": "^14.2.1",
