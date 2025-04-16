@@ -52,6 +52,7 @@ npm i
 npm run clean
 npx cypress run --env TAGS="@AmphoraProducts" --headed
 npx cypress run --env TAGS="@APITesting"
+npx cypress run --e2e --spec **/*.feature --headed
 
 OR
 

@@ -27,7 +27,7 @@ class APITestingPage {
         status: 'available',
       },
     }).then((response) => {
-      cy.wrap(response).as('apiResponse'); // stores the ID as an alias
+      cy.wrap(response).as('apiResponse'); 
     });
   }
 
@@ -51,7 +51,7 @@ class APITestingPage {
         'Content-Type': 'application/json',
       },
       body: {
-        id: petid, // Make sure this pet exists or was created earlier
+        id: petid,
         category: {
           id: 123456,
           name: 'string',
